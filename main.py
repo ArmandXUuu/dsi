@@ -55,8 +55,8 @@ if __name__ == '__main__':
                     doublon_ids.append(alert.id)
                     count += 1
 
-    print("Found " + str(count) + " doublons côté DO, where active = 1 and the query can be found in d.com with exact the same email")
-    print("use this list in sql query :")
+    print("Found " + str(count) + " doublons côté DO, where active = 1 and the keyword(query) can be found in drouot having exactly the same user email")
+    print("\nuse this list in sql query :\n\n")
 
     print(",".join(doublon_ids))
     ''' this out put can be used in sql command : 
